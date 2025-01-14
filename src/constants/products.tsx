@@ -16,7 +16,7 @@ export const products = [
     thumbnail: sidefolioAIToolkit,
     images: [sidefolioAIToolkit, sidefolioAIToolkit2],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    slug: "aitoolkit",
     content: (
       <div>
         <p>
