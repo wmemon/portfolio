@@ -2,8 +2,8 @@ import sidefolioAIToolkit from "public/images/ai-toolkit.jpeg";
 import sidefolioAIToolkit2 from "public/images/ai-toolkit2.jpeg";
 import sidefolioBotsensei from "public/images/botsensei.jpeg";
 import sidefolioBotsensei2 from "public/images/botsensei2.jpeg";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
+import sidefolioImperius from "public/images/imperius.jpeg";
+import sidefolioImperius2 from "public/images/imperius2.jpeg";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 
@@ -77,33 +77,27 @@ export const products = [
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://www.imperiusai.io/",
+    title: "Imperius AI",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+      "Imperius delivers unparalleled decentralized computing solutions, prioritizing robust security and efficient scalability.",
+    thumbnail: sidefolioImperius,
+    images: [sidefolioImperius, sidefolioImperius2],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+    slug: "imperiusai",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Imperius is an AI-driven platform that enhances blockchain scalability through decentralized computing solutions, emphasizing security and efficiency. Its decentralized mesh network ensures continuous operation with self-healing capabilities, maintaining optimal performance even during node failures.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Advanced onion routing technology provides multi-layered encryption, ensuring superior privacy and protection against traffic analysis. AI algorithms anticipate network demands, optimizing resource allocation in real-time for seamless scalability. The platform offers an intuitive DApp management hub with real-time analytics, one-click deployment, and scalability controls, simplifying decentralized application management.
+        </p>
+        <p>
+          Imperius supports various use cases, including enterprise-grade solutions, blockchain development, high-performance compute clusters, privacy-centric applications, and IoT network management. The roadmap includes phases focusing on infrastructure development, AI integration, ecosystem expansion, and multi-chain interoperability to drive global adoption.
+        </p>
       </div>
+
     ),
   },
   {
