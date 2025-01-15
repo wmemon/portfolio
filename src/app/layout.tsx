@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Wasim Memon - Developer",
   description:
     "Wasim Memon is a software developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+  icons: {
+    icon: "/images/wasim-logo.jpeg",
+  },
 };
 
 export default function RootLayout({
@@ -23,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/wasim-logo.jpeg" />
+      </head>
       <body
         className={twMerge(
           inter.className,

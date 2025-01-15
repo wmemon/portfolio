@@ -4,8 +4,8 @@ import sidefolioBotsensei from "public/images/botsensei.jpeg";
 import sidefolioBotsensei2 from "public/images/botsensei2.jpeg";
 import sidefolioImperius from "public/images/imperius.jpeg";
 import sidefolioImperius2 from "public/images/imperius2.jpeg";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import sidefolioDreamLaunchStudio from "public/images/dreamlaunch.jpeg";
+import sidefolioDreamLaunchStudio2 from "public/images/dreamlaunch2.jpeg";
 
 export const products = [
   {
@@ -101,33 +101,26 @@ export const products = [
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "https://www.dreamlaunch.studio/",
+    title: "Dream Launch Studio",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+      "Currently working on this project. We aim to help startups launch MVP's at the fastest speed using AI tools",
+    thumbnail: sidefolioDreamLaunchStudio,
+    images: [sidefolioDreamLaunchStudio, sidefolioDreamLaunchStudio2],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
+    slug: "dreamlaunchstudio",
     content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
+        <div>
+          <p>
+            DreamLaunch Studio is an innovation-driven platform currently under development, focused on empowering startups to bring their Minimum Viable Products (MVPs) to life at unprecedented speeds. The platform leverages cutting-edge AI tools to streamline the development process, ensuring rapid iteration from idea to product launch.
+          </p>
+          <p>
+            By integrating AI-driven project management, code generation, and design optimization tools, DreamLaunch Studio significantly reduces the time and resources required to develop MVPs. The platform’s intuitive interface allows founders and teams to collaborate seamlessly, ensuring that ideas are turned into fully functional prototypes with minimal effort.
+          </p>
+          <p>
+            DreamLaunch Studio aims to cater to various industries, including fintech, healthtech, edtech, and web3 startups, providing tailored solutions for their specific needs. The roadmap includes phases for feature expansion, AI model improvements, integration with third-party APIs, and community-building initiatives to create a robust ecosystem for early-stage ventures.
+          </p>
+        </div>    
     ),
   },
 ];
